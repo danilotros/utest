@@ -6,7 +6,7 @@
       Dado Ya esta en la plataforma
       Cuando El ingrese las credenciales
         |correo|contra|
-        |danielgarcia10211@gmail.com|TGGadll95$|
+        |danielgarcia10211@gmail.com|TGGadll94$|
       Entonces El vera la pantalla principal
       |texto|
       | MY ACTIVITY |

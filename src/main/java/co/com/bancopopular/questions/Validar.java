@@ -2,7 +2,6 @@ package co.com.bancopopular.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.questions.Text;
 
 import javax.swing.*;
@@ -24,8 +23,7 @@ public class Validar implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         String label= Text.of(TEXTO_PRINCIAPAL).viewedBy(actor).asString();
-        JOptionPane.showMessageDialog(null,label);
-        JOptionPane.showMessageDialog(null,texto);
+
 
         return label.contains(texto);
     }
